@@ -44,7 +44,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 Sorted by Stars_Count (descending). Stars_Badge links to each repo's stargazers page.
 
-| Repo | Description | Stars Badge | GitHub Stars |
+| Repo | Description | Stars_Badge | GitHub Stars |
 |---|---|---|---|
 | **[Caddy](https://github.com/caddyserver/caddy)** | Web server with **automatic HTTPS by default**, HTTP/3, and reverse proxy/load balancer capabilities. Written in Go. Apache-2.0. | [![Stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers) | ~62,000 |
 | **[OpenResty](https://github.com/openresty/openresty)** | Programmable web platform built on NGINX and LuaJIT. Extends NGINX with Lua scripting for sophisticated routing, authentication, and traffic management. BSD-2-Clause. | [![Stars](https://img.shields.io/github/stars/openresty/openresty?style=social&color=white)](https://github.com/openresty/openresty/stargazers) | ~12,500 |
