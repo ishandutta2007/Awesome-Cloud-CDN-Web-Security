@@ -84,25 +84,17 @@ Sorted by Stars_Count (descending). Stars_Badge links to each repo's stargazers 
 
 
 
-| Repo | Description | GitHub_Stars |
+| Repo | Description | Stars Badge | GitHub Stars |
+|---|---|---|---|
+| **[Caddy](https://github.com/caddyserver/caddy)** | Web server with **automatic HTTPS by default**, HTTP/3, and reverse proxy/load balancer capabilities. Written in Go. Apache-2.0. | [![Stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers) | ~62,000 |
 
-|---|---|---|
-
-| **[Caddy](https://github.com/caddyserver/caddy)** — Web server with **automatic HTTPS by default**, HTTP/3, and reverse proxy/load balancer capabilities. Written in Go. Apache-2.0. | [![Stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers) | ~62,000 |
-
-| **[OpenResty](https://github.com/openresty/openresty)** — Programmable web platform built on NGINX and LuaJIT. Extends NGINX with Lua scripting for sophisticated routing, authentication, and traffic management. BSD-2-Clause. | [![Stars](https://img.shields.io/github/stars/openresty/openresty?style=social&color=white)](https://github.com/openresty/openresty/stargazers) | ~12,500 |
-
-| **[CrowdSec](https://github.com/crowdsecurity/crowdsec)** — Open-source, collaborative IPS/IDS with **AppSec WAF engine**. Blocks SQLi, XSS, and OWASP Top 10 via bouncers integrated with Caddy, Nginx, and more. MIT. | [![Stars](https://img.shields.io/github/stars/crowdsecurity/crowdsec?style=social&color=white)](https://github.com/crowdsecurity/crowdsec/stargazers) | ~10,000 |
-
-| **[BunkerWeb](https://github.com/bunkerity/bunkerweb)** — **Open-source, cloud-native WAF/WAAP** with OWASP Top 10 protection, antibot, DDoS mitigation, SSL offloading, and caching. Runs on Linux, Docker, and Kubernetes. AGPL-3.0 . | [![Stars](https://img.shields.io/github/stars/bunkerity/bunkerweb?style=social&color=white)](https://github.com/bunkerity/bunkerweb/stargazers) | ~7,500 |
-
-| **[GoEdge](https://github.com/TeaOSLab/EdgeAdmin)** — **Free, open-source CDN & WAF system** with multi-user, cluster management, HTTP/HTTPS/TCP/UDP support, WAF, caching, DNS auto-resolution, and free certificate application.  | [![Stars](https://img.shields.io/github/stars/TeaOSLab/EdgeAdmin?style=social&color=white)](https://github.com/TeaOSLab/EdgeAdmin/stargazers) | ~4,200 |
-
-| **[ModSecurity](https://github.com/SpiderLabs/ModSecurity)** — The original open-source WAF engine. Cross-platform, works with Apache, Nginx, and IIS. Apache-2.0. | [![Stars](https://img.shields.io/github/stars/SpiderLabs/ModSecurity?style=social&color=white)](https://github.com/SpiderLabs/ModSecurity/stargazers) | ~8,500 |
-
-| **[NyxGuard Manager](https://github.com/NyxCloudRO/NyxGuardManager)** — **Free, self-hosted WAF and reverse proxy** built on nginx. Single Docker container with SQL Shield, DDoS Shield, Bot Defence, GeoIP blocking, Let's Encrypt SSL, and Prometheus metrics.  | [![Stars](https://img.shields.io/github/stars/NyxCloudRO/NyxGuardManager?style=social&color=white)](https://github.com/NyxCloudRO/NyxGuardManager/stargazers) | ~1,500 |
-
-| **[Coraza](https://github.com/corazawaf/coraza)** — **OWASP Coraza WAF** — enterprise-grade, open-source WAF library in Go. Modern replacement for ModSecurity. Apache-2.0. | [![Stars](https://img.shields.io/github/stars/corazawaf/coraza?style=social&color=white)](https://github.com/corazawaf/coraza/stargazers) | ~2,800 |
+| **[OpenResty](https://github.com/openresty/openresty)** | Programmable web platform built on NGINX and LuaJIT. Extends NGINX with Lua scripting for sophisticated routing, authentication, and traffic management. BSD-2-Clause. | [![Stars](https://img.shields.io/github/stars/openresty/openresty?style=social&color=white)](https://github.com/openresty/openresty/stargazers) | ~12,500 |
+| **[CrowdSec](https://github.com/crowdsecurity/crowdsec)** | Open-source, collaborative IPS/IDS with **AppSec WAF engine**. Blocks SQLi, XSS, and OWASP Top 10 via bouncers integrated with Caddy, Nginx, and more. MIT. | [![Stars](https://img.shields.io/github/stars/crowdsecurity/crowdsec?style=social&color=white)](https://github.com/crowdsecurity/crowdsec/stargazers) | ~10,000 |
+| **[ModSecurity](https://github.com/SpiderLabs/ModSecurity)** | The original open-source WAF engine. Cross-platform, works with Apache, Nginx, and IIS. Apache-2.0. | [![Stars](https://img.shields.io/github/stars/SpiderLabs/ModSecurity?style=social&color=white)](https://github.com/SpiderLabs/ModSecurity/stargazers) | ~8,500 |
+| **[BunkerWeb](https://github.com/bunkerity/bunkerweb)** | **Open-source, cloud-native WAF/WAAP** with OWASP Top 10 protection, antibot, DDoS mitigation, SSL offloading, and caching. Runs on Linux, Docker, and Kubernetes. AGPL-3.0 . | [![Stars](https://img.shields.io/github/stars/bunkerity/bunkerweb?style=social&color=white)](https://github.com/bunkerity/bunkerweb/stargazers) | ~7,500 |
+| **[GoEdge](https://github.com/TeaOSLab/EdgeAdmin)** | **Free, open-source CDN & WAF system** with multi-user, cluster management, HTTP/HTTPS/TCP/UDP support, WAF, caching, DNS auto-resolution, and free certificate application. | [![Stars](https://img.shields.io/github/stars/TeaOSLab/EdgeAdmin?style=social&color=white)](https://github.com/TeaOSLab/EdgeAdmin/stargazers) | ~4,200 |
+| **[Coraza](https://github.com/corazawaf/coraza)** | **OWASP Coraza WAF** — enterprise-grade, open-source WAF library in Go. Modern replacement for ModSecurity. Apache-2.0. | [![Stars](https://img.shields.io/github/stars/corazawaf/coraza?style=social&color=white)](https://github.com/corazawaf/coraza/stargazers) | ~2,800 |
+| **[NyxGuard Manager](https://github.com/NyxCloudRO/NyxGuardManager)** | **Free, self-hosted WAF and reverse proxy** built on nginx. Single Docker container with SQL Shield, DDoS Shield, Bot Defence, GeoIP blocking, Let's Encrypt SSL, and Prometheus metrics. | [![Stars](https://img.shields.io/github/stars/NyxCloudRO/NyxGuardManager?style=social&color=white)](https://github.com/NyxCloudRO/NyxGuardManager/stargazers) | ~1,500 |
 
 
 
