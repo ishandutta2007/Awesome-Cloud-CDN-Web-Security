@@ -1,54 +1,31 @@
 # Awesome-Cloud-CDN-Web-Security
 
-# Awesome-Cloud-CDN-Web-Security
-
-
-
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 
 *Focused on Content Delivery Networks, Web Application Firewalls & DDoS Protection*
 
 **Last updated: October 2026**
 
-
-
 This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud CDN & Web Security**. These tools help organizations accelerate content delivery, protect web applications from OWASP Top 10 threats, and mitigate DDoS attacks at the edge.
-
-
 
 **Examples** include Azure Front Door, Cloudflare, Fastly, AWS CloudFront, Akamai Connected Cloud, Imperva Cloud WAF, Edgio, Bunny.net, StackPath, and KeyCDN (the category leaders).
 
-
-
 **Open-source emphasis**: Cloud CDN & Web Security has a **growing open-source ecosystem** for WAF, reverse proxy, and edge delivery, though **no open-source alternative matches the global PoP footprint of commercial CDNs**. **BunkerWeb** provides a cloud-native WAF/WAAP with OWASP Top 10 protection, antibot, and DDoS mitigation, deployable on Linux, Docker, and Kubernetes . **OpenResty Edge** consolidates private CDN, WAF, and API gateway into a single on-premises platform with WAF performance "an order of magnitude" better than ModSecurity . **GoEdge** offers a free, open-source CDN & WAF system supporting HTTP/HTTPS/TCP/UDP with multi-user and cluster management . **Caddy** delivers automatic HTTPS and reverse proxy with a simple configuration model . This section documents these production-grade solutions.
-
-
 
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
 
-
 ## 📖 Table of Contents
 
-
-
 - [☁️ SaaS/Hosted Platforms](#-saas-hosted-platforms)
-
 - [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
-
 - [🤝 How to Contribute](#-how-to-contribute)
-
 - [⚠️ Disclaimer](#-disclaimer)
-
 
 
 ## ☁️ SaaS/Hosted Platforms
 
-
-
 > **📊 Market Context**: The global CDN and web security market is estimated at **~$35B in 2026**, growing toward **~$95B by 2032** at a **~18% CAGR** (MarketsandMarkets / Mordor Intelligence estimates). The sector is **highly concentrated** — **Cloudflare** alone generated **$2.17B in FY2025 revenue** (+29.85% YoY), **Fastly** reported **$624M in FY2025** (+15% YoY), and **Akamai** remains the incumbent with a mature enterprise base . Cloudflare, Akamai, and AWS CloudFront collectively capture the majority of global traffic. The market exhibits **winner-take-all dynamics** at the infrastructure layer — scale begets more PoPs, better DDoS absorption, and lower unit costs. No open-source alternative can replicate this network effect without building a global anycast footprint.
-
-
 
 | Platform | Description | Pricing (Starting Tier) | Free Tier Limits | Company Size |
 |----------|-------------|------------------------|------------------|--------------|
@@ -63,15 +40,9 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 | **[StackPath](https://www.stackpath.com/)** | Edge computing and CDN platform with WAF and DDoS protection. | **Custom pricing** — no public per-GB rates. Entry contracts typically **$500–$2,000/month**. | **None** — sales engagement required. | **Private (~$400M+ raised)** |
 | **[KeyCDN](https://www.keycdn.com/)** | Developer-friendly CDN with transparent pricing and HTTP/3 support. | **Pay-as-you-go**: From **$0.04/GB** (EU/NA) to **$0.12/GB** (Asia). **$10 minimum/month**. | **None** — no free tier. **14-day free trial** available on request. | **Private (part of proinity LLC)** |
 
-
-
 ## 🔓 Open-Source GitHub Projects
 
-
-
 Sorted by Stars_Count (descending). Stars_Badge links to each repo's stargazers page.
-
-
 
 | Repo | Description | Stars Badge | GitHub Stars |
 |---|---|---|---|
@@ -85,58 +56,33 @@ Sorted by Stars_Count (descending). Stars_Badge links to each repo's stargazers 
 | **[NyxGuard Manager](https://github.com/NyxCloudRO/NyxGuardManager)** | **Free, self-hosted WAF and reverse proxy** built on nginx. Single Docker container with SQL Shield, DDoS Shield, Bot Defence, GeoIP blocking, Let's Encrypt SSL, and Prometheus metrics. | [![Stars](https://img.shields.io/github/stars/NyxCloudRO/NyxGuardManager?style=social&color=white)](https://github.com/NyxCloudRO/NyxGuardManager/stargazers) | ~1,500 |
 
 
-
 **Additional open-source options worth exploring:**
 
-
-
 | Repo | Description |
-
 |---|---|
-
 | **[BunkerWeb Docker](https://hub.docker.com/r/bunkerity/bunkerweb)** — Official Docker image for BunkerWeb WAF. Deploy a full WAF in minutes with `docker run`.  | [![Docker](https://img.shields.io/badge/Docker-Image-blue)](https://hub.docker.com/r/bunkerity/bunkerweb) |
-
 | **[Caddy Plus (Docker)](https://hub.docker.com/r/iamdockin/caddy-plus)** — Pre-built Caddy container with CrowdSec WAF, OIDC, Cloudflare DNS, and reverse proxy plugins.  | [![Docker](https://img.shields.io/badge/Docker-Image-blue)](https://hub.docker.com/r/iamdockin/caddy-plus) |
-
 | **[OpenResty Edge](https://blog.openresty.com/en/what-is-openresty-edge/)** — Commercial platform built on OpenResty for private CDN + WAF + gateway. **Case study**: Major OTA deployed 100+ nodes, improved latency by 100ms.  | [![OpenResty](https://img.shields.io/badge/OpenResty-Edge-blue)](https://blog.openresty.com/en/what-is-openresty-edge/) |
-
 
 
 ## 🤝 How to Contribute
 
-
-
 1. Fork the repo.
-
 2. Add/edit entries in `README.md` (follow existing format).
-
 3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
 4. Submit PR with a short explanation.
-
-
 
 Star the repo if you find it useful!
 
-
-
 ## ⚠️ Disclaimer
 
-
-
 - This is a **community-curated** list — not exhaustive and not an endorsement.
-
 - CDN and WAF platforms handle sensitive traffic and can terminate TLS; ensure proper certificate management, security configuration, and compliance with organizational policies.
-
 - **Open-source reality**: **No open-source alternative matches the global PoP footprint of Cloudflare (330+), CloudFront (600+), or Akamai (4,000+).** Open-source WAF and reverse proxy solutions (**BunkerWeb**, **CrowdSec**, **ModSecurity**, **Coraza**) provide **OWASP Top 10 protection and DDoS mitigation** that can be deployed on your own infrastructure, but they require you to **build and operate your own edge network** — a significant engineering investment. **GoEdge** offers a free CDN & WAF system for those willing to self-host. **OpenResty Edge** consolidates private CDN, WAF, and gateway with on-premises deployment. The open-source path is **genuinely viable** for organizations with strong infrastructure engineering capacity seeking full data sovereignty and zero per-GB CDN costs.
-
 - **Pricing caveat**: All pricing figures above are **verified against cited search results** but may change without notice. Cloud provider costs (compute, storage, egress) are often billed separately. Always request a formal quote for accurate budgeting.
 
 
-
 ---
-
-
 
 **Made for DevOps engineers, security architects, platform teams, and web infrastructure specialists.**
 
