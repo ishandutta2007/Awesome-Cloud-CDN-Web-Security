@@ -51,27 +51,16 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 | Platform | Description | Pricing (Starting Tier) | Free Tier Limits | Company Size |
-
 |----------|-------------|------------------------|------------------|--------------|
-
-| **[Cloudflare](https://www.cloudflare.com/)** | The leading connectivity cloud with CDN, WAF, DDoS protection, and edge compute. 330+ PoPs globally. | **Pro**: $20/month (per site); **Business**: $200/month; **Enterprise**: Custom. **Workers Paid**: $5/month + $0.30 per million requests. | **Free plan**: Unlimited bandwidth (HTML/CSS/JS/small images), basic DDoS mitigation, limited WAF ruleset, **no per-GB bill**. **ToS restriction**: Primarily-video or large-file traffic must pair with Stream or R2 . | **$2.17B revenue (FY2025), +29.85% YoY**  |
-
+| **[Cloudflare](https://www.cloudflare.com/)** | The leading connectivity cloud with CDN, WAF, DDoS protection, and edge compute. 330+ PoPs globally. | **Pro**: $20/month (per site); **Business**: $200/month; **Enterprise**: Custom. **Workers Paid**: $5/month + $0.30 per million requests. | **Free plan**: Unlimited bandwidth (HTML/CSS/JS/small images), basic DDoS mitigation, limited WAF ruleset, **no per-GB bill**. **ToS restriction**: Primarily-video or large-file traffic must pair with Stream or R2 . | **$2.17B revenue (FY2025), +29.85% YoY** |
 | **[Fastly](https://www.fastly.com/)** | Edge cloud platform with real-time purging and Compute@Edge. 90+ PoPs. | **Pay-as-you-go**: ~$0.12/GB (NA), ~$0.19/GB (EU), ~$0.28/GB (Asia). **$50/month minimum** on paid plans. **Flat-rate**: From $1,500/month (100M requests) . | **14-day free trial** with full access. **No perpetual free tier**. Custom domain certificate is **paid add-on even during trial** . | **$624M revenue (FY2025), +15% YoY**  |
-
 | **[Akamai Connected Cloud](https://www.akamai.com/)** | The original CDN with the largest edge footprint (4,000+ locations). Enterprise security and delivery. | **Custom enterprise pricing** — quote required. Typical enterprise CDN contracts range from **$50K–$500K+/year** depending on volume. | **None** — enterprise sales engagement required. No public free tier. | **~$4B+ revenue (Akamai FY2025 est.), Adjusted EBITDA $1.802B**  |
-
 | **[AWS CloudFront](https://aws.amazon.com/cloudfront/)** | AWS's global CDN with 600+ PoPs. Deep integration with S3, EC2, and AWS WAF. | **First 9 TB**: $0.085/GB (US/Canada/Mexico); **next 40 TB**: $0.080/GB. **$0.0075 per HTTP request** . | **AWS Free Tier**: **1 TB data transfer + 10M HTTP/HTTPS requests per month** (new AWS accounts, 12 months) . No perpetual free tier. | **~$638B revenue (Amazon FY2025)** |
-
 | **[Azure Front Door](https://azure.microsoft.com/en-us/products/frontdoor/)** | Microsoft's modern cloud CDN with global anycast, WAF, and DDoS protection. | **Standard**: From **~$35/month** + **$0.08/GB** (first 10 TB). **Premium**: From **~$330/month** + **$0.15/GB**. | **Azure free tier**: No perpetual CDN tier. **30-day free trial** via Azure subscription credits. | **~$281B revenue (Microsoft FY2025)** |
-
 | **[Bunny.net](https://bunny.net/)** | Budget CDN with 119 PoPs, flat per-GB pricing, and free SSL. | **Standard Network**: **$0.01/GB**; **Volume Network**: **$0.005/GB**. **$1/month minimum** . | **14-day free trial** with full access. **Free Let's Encrypt SSL per custom hostname** (better default TLS than Fastly trial) . | **Private (~$50M+ ARR est.)** |
-
 | **[Imperva Cloud WAF](https://www.imperva.com/)** | Enterprise WAF with DDoS mitigation, bot management, and API protection. Acquired by Thales (2023). | **Custom enterprise pricing** — quote required. Reported entry contracts start at **~$5,000/year** for small deployments. | **None** — enterprise demo required. **30-day free trial** available for Imperva Cloud WAF on request. | **Part of Thales Cyber & Digital (~€3.85B revenue)**  |
-
 | **[Edgio](https://edg.io/)** | Edge platform with CDN, WAF, and application delivery. Formerly Limelight Networks + Edgecast. | **Custom enterprise pricing** — quote required. Entry contracts typically **$2,000–$10,000/month** depending on volume. | **None** — enterprise demo required. | **Private (~$300M+ revenue est., Chapter 11 2024)** |
-
 | **[StackPath](https://www.stackpath.com/)** | Edge computing and CDN platform with WAF and DDoS protection. | **Custom pricing** — no public per-GB rates. Entry contracts typically **$500–$2,000/month**. | **None** — sales engagement required. | **Private (~$400M+ raised)** |
-
 | **[KeyCDN](https://www.keycdn.com/)** | Developer-friendly CDN with transparent pricing and HTTP/3 support. | **Pay-as-you-go**: From **$0.04/GB** (EU/NA) to **$0.12/GB** (Asia). **$10 minimum/month**. | **None** — no free tier. **14-day free trial** available on request. | **Private (part of proinity LLC)** |
 
 
@@ -87,7 +76,6 @@ Sorted by Stars_Count (descending). Stars_Badge links to each repo's stargazers 
 | Repo | Description | Stars Badge | GitHub Stars |
 |---|---|---|---|
 | **[Caddy](https://github.com/caddyserver/caddy)** | Web server with **automatic HTTPS by default**, HTTP/3, and reverse proxy/load balancer capabilities. Written in Go. Apache-2.0. | [![Stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers) | ~62,000 |
-
 | **[OpenResty](https://github.com/openresty/openresty)** | Programmable web platform built on NGINX and LuaJIT. Extends NGINX with Lua scripting for sophisticated routing, authentication, and traffic management. BSD-2-Clause. | [![Stars](https://img.shields.io/github/stars/openresty/openresty?style=social&color=white)](https://github.com/openresty/openresty/stargazers) | ~12,500 |
 | **[CrowdSec](https://github.com/crowdsecurity/crowdsec)** | Open-source, collaborative IPS/IDS with **AppSec WAF engine**. Blocks SQLi, XSS, and OWASP Top 10 via bouncers integrated with Caddy, Nginx, and more. MIT. | [![Stars](https://img.shields.io/github/stars/crowdsecurity/crowdsec?style=social&color=white)](https://github.com/crowdsecurity/crowdsec/stargazers) | ~10,000 |
 | **[ModSecurity](https://github.com/SpiderLabs/ModSecurity)** | The original open-source WAF engine. Cross-platform, works with Apache, Nginx, and IIS. Apache-2.0. | [![Stars](https://img.shields.io/github/stars/SpiderLabs/ModSecurity?style=social&color=white)](https://github.com/SpiderLabs/ModSecurity/stargazers) | ~8,500 |
