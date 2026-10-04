@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Cloud CDN &amp; Web Security Banner" width="100%">
+</p>
+
 # Awesome-Cloud-CDN-Web-Security
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**
