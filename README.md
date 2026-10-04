@@ -80,11 +80,11 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
-Sorted by star count (descending). Star badge links to each repo's stargazers page.
+Sorted by Stars_Count (descending). Stars_Badge links to each repo's stargazers page.
 
 
 
-| Repo | Description | Stars |
+| Repo | Description | GitHub_Stars |
 
 |---|---|---|
 
@@ -161,3 +161,12 @@ Star the repo if you find it useful!
 **Made for DevOps engineers, security architects, platform teams, and web infrastructure specialists.**
 
 Let's make content delivery and web security more open, transparent, and resilient.
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Cloud-CDN-Web-Security&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Cloud-CDN-Web-Security_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Cloud-CDN-Web-Security_growth.svg">
+  </picture>
+</a>
